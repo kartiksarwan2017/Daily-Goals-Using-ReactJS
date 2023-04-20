@@ -1,0 +1,35 @@
+.container{
+    background-color: rgb(250, 220, 187);
+    width: 70%;
+    margin: auto;
+    min-height: 100vh;
+    padding: 4vmax 8vmax;
+    box-sizing: border-box;
+}
+
+
+.container > form{
+    display: flex;
+    flex-direction: column;
+}
+
+.container > h1 {
+    text-align: center;
+    margin: 30px;
+    font-size: 2.5rem;
+}
+
+input, textarea, button {
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    border-radius: 5px;
+    margin: 10px 0;
+    font: 1.2rem;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    background-color: rgba(12, 4, 6, 0.87);
+    color: white;
+}
